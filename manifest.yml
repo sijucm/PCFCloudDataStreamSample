@@ -1,0 +1,9 @@
+---
+applications:
+- name: siju_test
+  memory: 1024M
+  instances: 1
+  services:
+  - rabbitmq
+  env:
+    TRUST_CERTS: siju_test.apps.cbsp.pcfenv.com
